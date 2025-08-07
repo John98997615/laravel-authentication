@@ -18,6 +18,16 @@
                     </a>
                 </li>
                 <li>
+                    <a href="{{ route('categories.index') }}">
+                        Catégories
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('products.index') }}">
+                        Produits
+                    </a>
+                </li>
+                <li>
                     <a href="{{ route('logout') }}">
                         Déconnexion
                     </a>
